@@ -23,7 +23,7 @@ function FunBtn (){
 
   return(
     <div className='all-country'>
-      <h2>Total Users: {count.length} </h2>
+      <h2>Total Users in Bangla: {count.length} </h2>
      <div className='country-box'>
      {
         count.map(user => <User dekha={user} key={user.id}></User>)
